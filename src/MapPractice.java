@@ -13,23 +13,41 @@ public class MapPractice {
     workingMap.put("excited", 30);
     // (it's OK to do this one-by-one)
 
+    System.out.println(workingMap);
+
     // Get the value associated with a given key in the Map
 
     System.out.println(workingMap.get("fun"));
     // Find the size (number of key/value pairs) of the Map
 
+    System.out.println(workingMap.size());
     // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    workingMap.replace("fun", 15);
+    System.out.println(workingMap);
     // Check whether the Map contains a given key
 
+    System.out.println(workingMap.containsKey("fun"));
     // Check whether the Map contains a given value
 
+    System.out.println(workingMap.containsValue(30));
     // Iterate over the keys of the Map, printing each key
 
+    for(int i = 0; i < workingMap.size(); i++)
+    {
+      System.out.println(workingMap.keySet());
+    }
     // Iterate over the values of the map, printing each value
-
+    
+    for(int i = 0; i < workingMap.size(); i++)
+    {
+      System.out.println(workingMap.values());
+    }
     // Iterate over the entries in the map, printing each key and value
 
+    for(int i = 0; i < workingMap.size(); i++)
+    {
+      System.out.println(workingMap);
+    }
     /*
      
 Usage tip!
