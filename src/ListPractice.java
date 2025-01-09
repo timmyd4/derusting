@@ -42,6 +42,11 @@ public class ListPractice {
       System.out.println(IterateOver);
     }
     // Print each value on a second line
+    for (String IterateOver : EmptyList)
+    {
+      System.out.println(IterateOver);
+      System.out.println();
+    }
 
     /*
      
