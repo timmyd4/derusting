@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
 
 public class MapPractice {
   public static void main(String[] args) {
